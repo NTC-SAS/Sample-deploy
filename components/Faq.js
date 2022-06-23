@@ -66,7 +66,7 @@ export default function Faq() {
 
                     <div className="p-4 md:w-1/3">
                       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
-                        <img className="object-cover object-center w-full lg:h-48 md:h-36" src="/images-pexels/library-pexels.jpg" alt="blog" />
+                        <img className="object-cover object-center w-full lg:h-48 md:h-36" src="/images-pexels/scholarship-pexels.jpg" alt="blog" />
                         <div className="office_content">
                           <h1 className="mb-3 text-lg font-medium text-gray-900 title-font">Library Office</h1>
                           <p className="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
