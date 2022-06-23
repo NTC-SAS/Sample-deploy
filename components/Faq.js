@@ -1,4 +1,4 @@
-import Image from "next/image"
+import styles from '../styles/Faq.module.css'
 
 export default function Faq() {
     return (
@@ -25,11 +25,11 @@ export default function Faq() {
                     <div className="p-4 md:w-1/3">
                       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
                         <img className="object-cover object-center w-full lg:h-48 md:h-36" src="/images-pexels/osa-pexels.jpg" alt="blog" />
-                        <div className="office_content">
+                        <div className={styles.office_content}>
                           <h1 className="mb-3 text-lg font-medium text-gray-900 title-font">Office of the Student Affairs Office</h1>
                           <p className="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                           <div className="flex flex-wrap items-center ">
-                            <a className="inline-flex items-center text-red-500 md:mb-2 lg:mb-0" href="./osa/osa.html">Learn More
+                            <a className="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0" href="./osa/osa.html">Learn More
                               <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M5 12h14"></path>
                                 <path d="M12 5l7 7-7 7"></path>
@@ -47,7 +47,7 @@ export default function Faq() {
                     <div className="p-4 md:w-1/3">
                       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
                         <img className="object-cover object-center w-full lg:h-48 md:h-36" src="/images-pexels/guidance-pexels.jpg" alt="blog" />
-                        <div className="office_content">
+                        <div className={styles.office_content}>
                           <h1 className="mb-3 text-lg font-medium text-gray-900 title-font">Guidance Office</h1>
                           <p className="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                           <div className="flex flex-wrap items-center ">
@@ -66,8 +66,8 @@ export default function Faq() {
 
                     <div className="p-4 md:w-1/3">
                       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
-                        <img className="object-cover object-center w-full lg:h-48 md:h-36" src="/images-pexels/scholarship-pexels.jpg" alt="blog" />
-                        <div className="office_content">
+                        <img className="object-cover object-center w-full lg:h-48 md:h-36" src="/images-pexels/guidance-pexels.jpg" alt="blog" />
+                        <div className={styles.office_content}>
                           <h1 className="mb-3 text-lg font-medium text-gray-900 title-font">Library Office</h1>
                           <p className="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                           <div className="flex flex-wrap items-center ">
@@ -87,7 +87,7 @@ export default function Faq() {
                     <div className="p-4 md:w-1/3">
                       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
                         <img className="object-cover object-center w-full lg:h-48 md:h-36" src="/images-pexels/scholarship-pexels.jpg" alt="blog" />
-                        <div className="office_content">
+                        <div className={styles.office_content}>
                           <h1 className="mb-3 text-lg font-medium text-gray-900 title-font">Scholarship Office</h1>
                           <p className="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                           <div className="flex flex-wrap items-center ">
@@ -105,7 +105,7 @@ export default function Faq() {
                     <div className="p-4 md:w-1/3">
                       <div className="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
                         <img className="object-cover object-center w-full lg:h-48 md:h-36" src="/images-pexels/student-support.jpg" alt="blog" />
-                        <div className="office_content">
+                        <div className={styles.office_content}>
                           <h1 className="mb-3 text-lg font-medium text-gray-900 title-font">Student support center</h1>
                           <p className="mb-3 leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                           <div className="flex flex-wrap items-center ">
